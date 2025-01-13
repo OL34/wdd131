@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+p{
+    text-align: left;
+    padding: 20px;
+}
+
+.content{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 100px;
+    border: 1px solid black;
+}
+h1{
+    padding: 10px;
+    letter-spacing: .3rem ;
+}
+
+h2 {
+    color: #006EB6;
+    font-weight: 100;
+    font-size: medium;
+    letter-spacing: .2rem;
+}
+h3{
+    font-style: italic;
+    text-align: left;
+}
+
+.list{
+text-align: left;
+
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
