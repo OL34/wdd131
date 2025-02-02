@@ -7,12 +7,18 @@
     <meta name="author" content="Odette Aguilar">
 
     <link rel="stylesheet" href="coolpics.css">
-    <script src="coolpics.js"></script>
+    <script defer src="coolpics.js"></script>
+    
     <title>Cool Pics</title>
 </head>
 <body>
+    <div class="viewer">
+        <button class="close-viewer">X</button>
+        <img src="norris-sm.jpeg" alt="sm">
+    </div>
     <header>
         <h1>Cool Pics 📷</h1>
+        <button class="menu-button" onclick="toggleMenu()">Menu</button>
         <nav>
             <ul class="navigation">
                 <li> <a href="" title="Home">Home</a></li>

@@ -72,4 +72,46 @@ img{
     }
     
 }
+.hidden {
+    display: none;
+}
+.menu-button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color:rgb(150, 40, 144) ;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.menu-button:hover{
+    background-color: rgb(136, 252, 211);
+}
+@media screen and(min-width: 768px){
+    .menu-button{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        justify-content:center;
+        gap:20px;
+    }
+    .navigation li{
+        margin: 0;
 
+    } 
+}
+.viewer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:rgba(0, 0, 0, 0.75) ;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    z-index: 10;
+}
